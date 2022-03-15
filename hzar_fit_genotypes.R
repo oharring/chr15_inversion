@@ -66,7 +66,7 @@ run_hzar_pheno <- function(df, pheno.col, model_tails, chain_length, model_scale
   
   # Make first fit request; this sets up the parameters for the MCMC chain.
   output$fitRs$init <- lapply(output$models,
-                              hzar.first.fitRequest.old.ML, #Altered from ERH script
+                              hzar.first.fitRequest.old.ML,
                                   obsData = output$obs)
   
   
