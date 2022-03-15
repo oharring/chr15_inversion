@@ -6,7 +6,7 @@ spectra_to_phenotypes.R: R script to calculate brightness, saturation, and hue f
 
 QTL_map_one_trait.R: R script to perform QTL mapping for one trait
 
-hzar_fit_multi_phenotypes.R: R script to fit phenotype clines
+hzar_fit_phenotypes.R: R script to fit phenotype clines
 
 hzar_fit_genotypes.R: R script to fit genotype clines
 
